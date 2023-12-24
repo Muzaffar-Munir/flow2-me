@@ -1,0 +1,227 @@
+    /* Define the background color for pagination */
+    .active>.page-link {
+      background:#000;
+    }
+    .previous{
+        /*background-color: #e30613;
+        border-radius: 10px;*/
+    }
+    .next{
+        background-color: #e30613;
+        border-radius: 10px;
+    }
+    .btn_disable{
+        background-color: #d14a53;
+        color:#FFF;
+    }
+    .btn_disable:hover{
+        background-color: #000;
+        color: #FFF !important;
+
+    }
+    .btn_create{
+        background-color: #e30613;
+        color: #FFF !important;
+    }
+    .btn_create:hover{
+        background-color: #000 !important;
+        color: #FFF !important;
+    }
+    .badge-black {
+        background-color:#000;
+        color: white;
+      }
+    .badge-danger{
+        background-color: #e30613;
+        color: #FFF !important;
+    }
+    .btn-danger{
+        background-color: #e30613 !important;
+        color: #FFF !important;
+    }
+    .paginate_button.previous a,
+    .paginate_button.next a {
+        background-color: #e30613 !important; 
+        color: #FFFFFF !important; 
+    }
+    .paginate_button.previous a:hover,
+    .paginate_button.next a:hover {
+        background-color: #000; 
+        color: #FFFF !important; 
+    }
+    .paginate_button.previous:hover span,
+    .paginate_button.next:hover span {
+        color: #000 !important; 
+    }
+    .paginate_button.previous.disabled a {
+        color: #FFF !important; 
+    }
+    .paginate_button.next.disabled a {
+        color: #FFF !important; 
+    }
+    .btn.btn-danger.btn-sm.mb-0:hover {
+        background-color: #000 !important;
+        color: #FFF !important;
+    }
+    .profile_hover:hover {
+        border-radius: 13px 0px 13px 0px;
+        background-color: #000 !important;
+        color: #FFF !important;
+    }
+    .bullet-dot{
+        background: #e30613 !important;
+    }
+     .menu-link.active{
+        background: #e30613 !important;
+    }
+    .menu-link.active .bullet-dot {
+        background: black !important;
+    }
+    .form-background {
+        background: #000 !important;
+        color: #FFF !important;
+    }
+    .form-background input{
+        background-color: #FFF !important;
+    }
+    .btn_login{
+        background-color: #e30613;
+        color: #FFF !important;
+    }
+    .btn_login:hover{
+        background-color: #e30613;
+        color: #FFF !important;
+    }
+    .signin_color{
+        color: #FFF !important;
+    }
+    .signin_color:hover{
+        background-color: #000 !important;
+        color: #e30613 !important;
+    }
+    .btn_delete:hover{
+        /* background-color: #e30613; */
+        color: #e30613 !important;
+
+    }
+    .delete{
+        /* background-color: #000 !important; */
+        color: light !important;
+
+    }
+    .delete:hover{
+        color: #e30613 !important;
+    }
+    #header-menu-remove{
+        display: none !important;
+    }
+    .home-background-color{
+        background-color: #e30613;
+    }
+    /* dashboard cards  */
+    .cards-body{
+        background-color: #e30613 !important;
+        color: #000 !important;
+
+    }
+    .li-spane-h3-white {
+        color: #FFF !important;
+    }
+/* box create style::start */
+    .selected-products-container {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 23px;
+        flex-wrap: wrap; 
+        gap: 10px;
+        margin-top: 10px; 
+    }
+    .selected-product {
+        display: flex;
+        flex-direction: row;
+        max-width: 250px; 
+        border: 1px solid #ccc; 
+        padding: 10px; 
+    }
+    .selected-product img {
+        width: 200px; 
+        height: 150px;
+    }
+/* box create style::ends */
+
+/* box updated style::start*/
+    .selected-products-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .selected-products-list li {
+        flex-basis: calc(33.33% - 20px);
+        margin: 10px;
+        list-style: none;
+    }
+    .selected-products-list li img {
+        display: block;
+        margin-bottom: 5px;
+    }
+/* box updated style::ends*/
+    
+/* media query register-form */
+    
+    @media screen and (max-width: 769px) {
+        .register-logo{
+            width:100px !important;
+            margin-bottom: -10px;
+        }
+    }
+    @media screen and (max-width: 999px) {
+        .register-logo{
+            width:200px !important;
+            margin-bottom: -10px;
+        }
+    }
+    @media screen and (min-width: 1000px) {
+        .register-logo{
+            width:400px !important;
+            margin-bottom: -10px;
+        }
+    }
+    /* media query forgetpassword-form */
+    @media screen and (max-width: 769px) {
+        .password-forget-logo{
+            width:100px !important;
+            margin-bottom: -25px;
+        }
+    }
+    @media screen and (max-width: 999px) {
+        .password-forget-logo{
+            width:200px !important;
+            margin-bottom: -25px;
+        }
+    }
+    @media screen and (min-width: 1000px) {
+        .password-forget-logo{
+            width:400px !important;
+            margin-bottom: -25px;
+        }
+    }
+    /* media query login-form */
+    @media screen and (max-width: 769px) {
+        .login-logo{
+            width:100px !important;
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (max-width: 999px) {
+        .login-logo{
+            width:200px !important;
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (min-width: 1000px) {
+        .login-logo{
+            width:400px !important;
+            margin-bottom: 20px;
+        }
+    }
+    
